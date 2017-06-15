@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    development-console:
+        build: .
+        volumes:
+          - ../:/development
+        container_name: development-console
